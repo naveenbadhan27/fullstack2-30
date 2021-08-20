@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		.ab{
+			height: 100px;
+			width: 100px;
+			background: red;
+			animation: fid 4s linear infinite;
+		}
+		@keyframes fid{
+			25%{
+				background: blue;
+			}
+			50%{
+				background: green;
+			}
+			75%{
+				background: yellow;
+			}
+			100%{
+				background: red;
+			}
+		}
+		.ac{
+			height: 100px;
+			width: 2px;
+			background: maroon;
+			margin-left: 50%;
+			/*animation: fot 4s ease infinite;*/
+			animation: fot 4s linear infinite;
+			transform-origin: 0% 100%;
+		}
+
+		@keyframes fot{
+			100%{
+				transform: rotate(360deg);
+			}
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+
+	<div class="ab">
+	</div>
+
+
+	<div class="ac">
+	</div>
+
+</body>
+</html>
