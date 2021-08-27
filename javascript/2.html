@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+<button onclick="abc()">Click</button>
+<br>
+<button onclick="bcd('Naveen')">Click 2</button>
+<br>
+<input type="text" id="name" placeholder="Fill your name">
+<button onclick="lmn()">Click 3</button>
+<br>
+<br>
+<script type="text/javascript">
+
+function abc(){
+	alert('Hello');
+}
+
+function bcd(x){
+	alert('Hi '+x);
+}
+
+function lmn(){
+	var a = document.getElementById('name').value;
+	alert('Hi '+a);
+}
+
+
+
+
+
+
+
+	
+	var a = 20;
+	var b = 30;
+	var c = "20";
+
+	if (a == b) {
+		console.log('Yes');
+	}else if(a == c){
+		// console.log('a is equal to c');
+
+		if (a === c) {
+			console.log('a is total equal to c');
+		}else{
+			console.log('a is parcial equal to c');
+		}
+
+	}else{
+		console.log('No');
+	}
+
+
+	for (var i = 0; i <= a; i++) {
+		console.log(i);
+	}
+
+	for (var i = a; i >= 0; i--) {
+		console.log(i);
+	}
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
