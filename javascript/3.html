@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+<select id="city" onchange="city()">
+	<option value="">Select City</option>
+	<option>Ldh</option>
+	<option>Chd</option>
+	<option>NDL</option>
+	<option>Pgw</option>
+</select>
+<p id="print"></p>
+
+
+<input type="text" id="name" onkeyup="names()">
+<br>
+<p id="print2"></p>
+
+<!-- 
+ondblclick
+onkeydown
+ -->
+
+
+<script type="text/javascript">	
+	function city(){
+		var ab = document.getElementById('city').value;
+		document.getElementById('print').innerHTML = ab;
+	}
+
+	function names(){
+		var nm = document.getElementById('name').value;
+		document.getElementById('print2').innerHTML = nm;
+	}
+
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
